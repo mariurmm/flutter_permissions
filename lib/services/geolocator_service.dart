@@ -1,9 +1,7 @@
 import 'package:geolocator/geolocator.dart';
 
 class GeolocatorService {
-
-  Future<Position> geolocate() async {
-
-    return await Geolocator.getCurrentPosition();
+  Future<Position> getCurrentPosition() async {
+    return Geolocator.getCurrentPosition();
   }
 }
