@@ -1,0 +1,121 @@
+# ─────────────────────────────────────────
+# Miscellaneous
+# ─────────────────────────────────────────
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ─────────────────────────────────────────
+# IDE — IntelliJ / Android Studio
+# ─────────────────────────────────────────
+*.iml
+*.ipr
+*.iws
+.idea/
+*.code-workspace
+
+# ─────────────────────────────────────────
+# IDE — VS Code
+# ─────────────────────────────────────────
+# Раскомментируй если не хочешь шарить launch/tasks конфиги
+#.vscode/
+.vscode/settings.json
+.vscode/launch.json
+
+# ─────────────────────────────────────────
+# Flutter / Dart / Pub
+# ─────────────────────────────────────────
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.gr.dart
+
+# ─────────────────────────────────────────
+# Android
+# ─────────────────────────────────────────
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/key.properties
+*.jks
+*.keystore
+
+# ─────────────────────────────────────────
+# iOS / macOS
+# ─────────────────────────────────────────
+**/ios/Pods/
+**/macos/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+xcuserdata/
+DerivedData/
+
+# ─────────────────────────────────────────
+# Web
+# ─────────────────────────────────────────
+/web/
+
+# ─────────────────────────────────────────
+# Secrets & env
+# ─────────────────────────────────────────
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+secrets.dart
+**/assets/config/secrets*
+
+# ─────────────────────────────────────────
+# Symbolication & obfuscation
+# ─────────────────────────────────────────
+app.*.symbols
+app.*.map.json
+
+# ─────────────────────────────────────────
+# Test coverage
+# ─────────────────────────────────────────
+coverage/
+lcov.info
